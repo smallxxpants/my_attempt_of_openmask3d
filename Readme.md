@@ -5,4 +5,4 @@ https://github.com/OpenMask3D/openmask3d.git
 
 2.在Ubuntu上直接安装，发现需要cuda11.3
 
-3.安装cuda11.3失败，发现是gcc版本过高
+3.安装cuda11.3失败，发现是gcc版本过高,cuda11.3要求gcc版本不高于10
