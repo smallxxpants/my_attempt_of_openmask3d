@@ -11,7 +11,7 @@ https://developer.nvidia.com/cuda-11.3.0-download-archive?target_os=Linux&target
 
 3.安装cuda11.3失败，发现是gcc版本过高,cuda11.3要求gcc版本不高于10
 
-4，安装完gcc发现仍然失败，检查是发现Ubuntu没有安装gpu驱动
+4.安装完gcc发现仍然失败，检查是发现Ubuntu没有安装gpu驱动
 ### 有用的操作
 //采用VMware Ubuntu 24.0 版
 
