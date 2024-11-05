@@ -15,6 +15,8 @@ https://developer.nvidia.com/cuda-11.3.0-download-archive?target_os=Linux&target
 
 5.发现是由于ubuntu无法虚拟出显卡，所以应该先安调用物理机的显卡
 
+6.发现虚拟机是不能这样操作的，后来在师兄建议下在服务器直接安装conda跑
+
 ### 有用的操作
 //采用VMware Ubuntu 24.0 版
 
