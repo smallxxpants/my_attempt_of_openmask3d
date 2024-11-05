@@ -18,3 +18,7 @@ https://developer.nvidia.com/cuda-11.3.0-download-archive?target_os=Linux&target
 2.在虚拟机想共享物理机vpn，参考以下链接
 
 https://blog.csdn.net/nomoremorphine/article/details/138738065
+
+3.切换gcc/g++版本
+
+https://blog.csdn.net/muxuen/article/details/135298656
