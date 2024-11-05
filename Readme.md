@@ -10,6 +10,8 @@ cuda安装链接
 https://developer.nvidia.com/cuda-11.3.0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=runfile_local
 
 3.安装cuda11.3失败，发现是gcc版本过高,cuda11.3要求gcc版本不高于10
+
+4，安装完gcc发现仍然失败，检查是发现Ubuntu没有安装gpu驱动
 ### 有用的操作
 //采用VMware Ubuntu 24.0 版
 
@@ -22,3 +24,6 @@ https://blog.csdn.net/nomoremorphine/article/details/138738065
 3.切换gcc/g++版本
 
 https://blog.csdn.net/muxuen/article/details/135298656
+
+4.安装GPU驱动教程
+
