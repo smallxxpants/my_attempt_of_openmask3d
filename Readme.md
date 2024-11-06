@@ -1,6 +1,15 @@
 ### 参考仓库
 https://github.com/OpenMask3D/openmask3d.git
 ### 配置环境
+在服务器中安装
+
+参考链接：https://zhuanlan.zhihu.com/p/440548295 
+
+1.可以直接把sh文件从windows中直接拉到远程服务器的文件下
+
+2.注意安装anaconda不要安装到home下，而是安装到data下
+
+--------------------------------------------------------------------------------
 1.试着在windows下直接安装，发现只能用于linux
 
 2.在Ubuntu上直接安装，发现需要cuda11.3
