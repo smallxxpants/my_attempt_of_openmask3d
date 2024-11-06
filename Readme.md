@@ -11,7 +11,9 @@ https://github.com/OpenMask3D/openmask3d.git
 
 3.git相关命令执行不了，服务器的问题，只能从github下载源码上传上去：
 
-例：从github上下载了detectron2后上传至服务器并安装
+例：从github上下载了detectron2后上传至服务器并安装：先用git命令下载到本地，然后在上传文件夹，之后用cd detectron2 && pip install -e .命令安装
+
+4.遇到cuda版本不匹配的问题，应该多安装一个cuda11.3版本
 
 --------------------------------------------------------------------------------
 1.试着在windows下直接安装，发现只能用于linux
