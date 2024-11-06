@@ -15,6 +15,13 @@ https://github.com/OpenMask3D/openmask3d.git
 
 4.遇到cuda版本不匹配的问题，应该多安装一个cuda11.3版本
 
+教程：https://blog.csdn.net/qq_41917697/article/details/114437924
+
+#export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+#export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+#export CUDA_HOME=/usr/local/cuda-9.0/
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/extras/CUPTI/lib64
+
 --------------------------------------------------------------------------------
 1.试着在windows下直接安装，发现只能用于linux
 
