@@ -9,6 +9,8 @@ https://github.com/OpenMask3D/openmask3d.git
 
 2.注意安装anaconda不要安装到home下，而是安装到data下
 
+3.git相关命令执行不了
+
 --------------------------------------------------------------------------------
 1.试着在windows下直接安装，发现只能用于linux
 
