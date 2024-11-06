@@ -17,9 +17,12 @@ https://github.com/OpenMask3D/openmask3d.git
 
 教程：https://blog.csdn.net/qq_41917697/article/details/114437924
 
-#export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+#export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}  
+
 #export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+
 #export CUDA_HOME=/usr/local/cuda-9.0/
+
 #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/extras/CUPTI/lib64
 
 --------------------------------------------------------------------------------
