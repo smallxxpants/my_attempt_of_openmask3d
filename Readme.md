@@ -28,6 +28,7 @@ https://github.com/OpenMask3D/openmask3d.git
 5.安装MinkowsKiEngine的时候总是不成功，报错如下
 
 ![image](https://github.com/user-attachments/assets/10b3ff03-db37-4a4d-99a9-e9f1e47d9933)
+
 解决方法：
 
 --------------------------------------------------------------------------------
