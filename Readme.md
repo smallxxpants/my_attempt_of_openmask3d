@@ -43,7 +43,7 @@ ps：只下载了仓库中给出的例子，即scene_example作为先手试验
 1.按照要求更改了路径之后，执行bash run_openmask3d_single_scene.sh，却惨造第一条指令出bug。
 bug如下
 ![image](https://github.com/user-attachments/assets/ec1d5ad2-ad7a-47fd-a958-e9775bb54a80)
-
+(感觉可能是忘记了执行pip install -e .命令的原因 // 呃运行了这个之后还是不行)
 
 --------------------------------------------------------------------------------
 ### 新名词学习
