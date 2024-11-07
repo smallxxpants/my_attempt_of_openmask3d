@@ -38,14 +38,22 @@ python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openb
 参考教程：https://blog.csdn.net/m0_60197472/article/details/125293739
 
 ### 正式训练
+ps：只下载了仓库中给出的例子，即scene_example作为先手试验
 
-1.
+1.按照要求更改了路径之后，执行bash run_openmask3d_single_scene.sh，却惨造第一条指令出bug。
+bug如下
+![image](https://github.com/user-attachments/assets/ec1d5ad2-ad7a-47fd-a958-e9775bb54a80)
+
 
 --------------------------------------------------------------------------------
 ### 新名词学习
 .ckt 文件：检查点（checkpoint）文件，作用是记录模型在特定时间点的参数值，一般为模型权重、优化器状态等信息，以便于之后的模型恢复、评估或继续训练。
 
 .pth文件： 常用于 PyTorch 框架，用于存储模型的状态信息（例如各层的参数和权重）。该文件可以直接加载到 PyTorch 中，用于模型的恢复、评估或迁移学习。
+
+VIT-H模型：
+
+pyviz3d库：
 
 ### 失败的操作
 1.试着在windows下直接安装，发现只能用于linux
