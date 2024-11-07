@@ -29,7 +29,11 @@ https://github.com/OpenMask3D/openmask3d.git
 
 ![image](https://github.com/user-attachments/assets/10b3ff03-db37-4a4d-99a9-e9f1e47d9933)
 
-解决方法：
+解决方法：采用
+
+python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openblas 
+
+这个命令而不是简单的pip install -e. 当然还做了一个setuptool降版本到50.0的操作
 
 --------------------------------------------------------------------------------
 1.试着在windows下直接安装，发现只能用于linux
