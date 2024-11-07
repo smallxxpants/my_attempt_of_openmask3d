@@ -37,6 +37,9 @@ python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openb
 
 参考教程：https://blog.csdn.net/m0_60197472/article/details/125293739
 
+###正式训练
+1.
+
 --------------------------------------------------------------------------------
 1.试着在windows下直接安装，发现只能用于linux
 
