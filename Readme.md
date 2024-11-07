@@ -37,7 +37,7 @@ python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openb
 
 参考教程：https://blog.csdn.net/m0_60197472/article/details/125293739
 
-###正式训练
+### 正式训练
 1.
 
 --------------------------------------------------------------------------------
