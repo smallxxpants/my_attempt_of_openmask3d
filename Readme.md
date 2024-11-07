@@ -42,6 +42,10 @@ python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openb
 1.
 
 --------------------------------------------------------------------------------
+### 新名词学习
+.ckt 文件：检查点（checkpoint）文件，作用是记录模型在特定时间点的参数值，以便于之后的模型恢复、评估或继续训练。
+
+### 失败的操作
 1.试着在windows下直接安装，发现只能用于linux
 
 2.在Ubuntu上直接安装，发现需要cuda11.3
