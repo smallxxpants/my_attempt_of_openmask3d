@@ -35,6 +35,8 @@ python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openb
 
 这个命令而不是简单的pip install -e. 当然还做了一个setuptool降版本到50.0的操作
 
+参考教程：https://blog.csdn.net/m0_60197472/article/details/125293739
+
 --------------------------------------------------------------------------------
 1.试着在windows下直接安装，发现只能用于linux
 
