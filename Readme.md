@@ -39,7 +39,7 @@ python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openb
 
 6.代码中有个bug，所以不能直接跑出来，bug修改在哪我也忘记了
 
-7. 在运行bash的时候，要清楚path指的是路径什么的，注意更改
+7.在运行bash的时候，要清楚path指的是路径什么的，注意更改
 
 ### 正式训练
 ps：只下载了仓库中给出的例子，即scene_example作为先手试验
