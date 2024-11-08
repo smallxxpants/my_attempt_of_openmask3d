@@ -37,6 +37,9 @@ python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openb
 
 参考教程：https://blog.csdn.net/m0_60197472/article/details/125293739
 
+6.代码中有个bug，所以不能直接跑出来，bug修改在哪我也忘记了
+
+
 ### 正式训练
 ps：只下载了仓库中给出的例子，即scene_example作为先手试验
 
@@ -86,4 +89,8 @@ https://blog.csdn.net/nomoremorphine/article/details/138738065
 https://blog.csdn.net/muxuen/article/details/135298656
 
 4.安装GPU驱动教程
+
+5.在服务器中新建文件夹/修改文件夹名称/移动文件夹
+
+https://blog.csdn.net/Robin_Pi/article/details/108050171
 
